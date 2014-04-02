@@ -1,0 +1,12 @@
+To run acceptance test:
+
+    casperjs test acceptance.js --direct --log-level=info --url=example.com
+
+To run action tests:
+
+    casperjs action-submitform.js [--screenshot-path=path/to/screenshots] --url=example.com/contacts
+    casperjs action-lightbox.js [--screenshot-path=path/to/screenshots] --url=example.com/gallery
+
+To run responsive test:
+
+    casperjs responsive.js --screenshot-path=path/to/screenshots example.com

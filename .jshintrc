@@ -1,0 +1,18 @@
+{
+    "node": true,
+    "curly": true,
+    "eqeqeq": false,
+    "immed": false,       // don't be bothered by IIF syntax
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "unused": "vars",
+    "boss": true,
+    "eqnull": true,
+    "browser": true,
+    "laxbreak": true,     //prevents warning about unsafe line breaks
+    "expr": true,         // prevents warning "Expected an assignment or function call and instead saw an expression."
+    "onevar": true       // enforce single var statement in functions
+}
